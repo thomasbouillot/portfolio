@@ -1,0 +1,238 @@
+html,
+body, 
+a {
+  height: 100%;
+  font-family: DinPro;
+  letter-spacing: -1px;
+  text-decoration: none;
+    color: #1A1A1A;
+
+}
+body {
+  color: #1A1A1A;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*ABOUT PAGE*/
+.title {
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+  text-align: left;
+}
+
+.cover-heading {
+	font-weight: normal;
+	font-size: 24px;
+	width: 90%;
+}
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  }
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 20px;
+  color: #1A1A1A; /* IE8 proofing */
+  text-decoration: none;
+}
+
+.masthead-nav > a,{
+  color: #1A1A1A;
+}
+
+.mastfoot {
+  color: #1A1A1A;
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+}
+
+.rmm {
+	display:block;
+	position:relative;
+	width:100%;
+	padding:0px;
+	margin:0 auto !important;
+	text-align: right;
+	line-height:19px !important;
+	float: right;
+}
+.rmm * {
+	-webkit-tap-highlight-color:transparent !important;
+	font-family:DinPro,Arial;
+}
+.rmm a {
+	color:#ebebeb;
+	text-decoration:none;
+}
+.rmm .rmm-main-list, .rmm .rmm-main-list li {
+	margin:0px;
+	padding:0px;
+}
+.rmm ul {
+	display:block;
+	width:auto !important;
+	margin:0 auto !important;
+	overflow:hidden;
+	list-style:none;
+}
+
+
+/* sublevel menu - in construction */
+.rmm ul li ul, .rmm ul li ul li, .rmm ul li ul li a {
+	display:none !important;
+	height:0px !important;
+	width:0px !important;
+}
+/* */
+
+
+.rmm .rmm-main-list li {
+	display:inline;
+	padding:padding:0px;
+	margin:0px !important;
+}
+.rmm-toggled {
+	display:none;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	margin:0 auto !important;
+}
+.rmm-button:hover {
+	cursor:pointer;
+}
+.rmm .rmm-toggled ul {
+	display:none;
+	margin:0px !important;
+	padding:0px !important;
+}
+.rmm .rmm-toggled ul li {
+	display:block;
+	margin:0 auto !important;
+}
+
+/* MINIMAL STYLE */
+
+.rmm.minimal a {
+	color:#333333;
+}
+.rmm.minimal a:hover {
+	opacity:0.7;
+}
+.rmm.minimal .rmm-main-list li a {
+	display:inline-block;
+	padding:20px 30px 25px 30px;
+	margin:0px -3px 0px -3px;
+	font-size:20px;
+	color:#1A1A1A;
+}
+.rmm.minimal .rmm-toggled {
+	width:95%;
+	min-height:36px;
+}
+.rmm.minimal .rmm-toggled-controls {
+	display:block;
+	height:36px;
+	color:#333333;
+	text-align:left;
+	position:relative;
+}
+.rmm.minimal .rmm-toggled-title {
+	position:relative;
+	top:9px;
+	left:9px;
+	font-size:16px;
+	color:#33333;
+}
+.rmm.minimal .rmm-button {
+	display:block;
+	position:absolute;
+	right:9px;
+	top:7px;
+}
+
+.rmm.minimal .rmm-button span {
+	display:block;
+	margin:4px 0px 4px 0px;
+	height:2px;
+	background:#333333;
+	width:25px;
+}
+.rmm.minimal .rmm-toggled ul li a {
+	display:block;
+	width:100%;
+	text-align:right;
+	padding:10px 0px 10px 0px;
+	color:#333333;
+}
+
+
+@media (min-width: 768px) {
+
+.masthead {
+  position: fixed;
+  top: 0;
+}
+
+.masthead-brand {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.masthead-nav {
+  float: right;
+  padding-right: 20px;
+  }
+
+.site-wrapper-inner {
+  vertical-align: middle;
+}
+
+.masthead,
+.mastfoot,
+.cover-container {
+  width: 100%; 
+
+}
+.cover-heading {
+	font-weight: normal;
+	font-size: 24px;
+  	width: 50%;
+}
